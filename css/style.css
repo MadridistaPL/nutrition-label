@@ -3,7 +3,8 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: -1px;
 }
 
 body {
@@ -12,14 +13,15 @@ body {
 .label {
   border: 2px solid black;
   width: 270px;
-  margin: 20px auto;
+  margin: 170px auto;
   padding: 0 7px;
 }
 
 header h1 {
   text-align: center;
   margin: -4px 0;
-  letter-spacing: 0.15px;
+  font-size: 33.4px;
+  letter-spacing: -1.5px;
 }
 
 p {
