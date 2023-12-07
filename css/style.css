@@ -19,7 +19,7 @@ body {
 
 header h1 {
   text-align: center;
-  margin: -4px 0;
+  margin: -6px 0 -8px;
   font-size: 30.9px;
   letter-spacing: -1.5px;
 }
@@ -30,13 +30,25 @@ p {
   justify-content: space-between;
 }
 
+.bold-medium {
+  font-weight: 650;
+  font-size: 12.5px;
+  letter-spacing: 0.5px;
+  margin-bottom: -4px;
+}
+
 .divider {
-  border-bottom: 1px solid #888989;
+  border-bottom: 0px solid #888989;
   margin: 2px 0;
 }
 
-.bold {
+.bold-ultra {
   font-weight: 1000;
+}
+
+.font-medium {
+  font-size: 14.5px;
+  letter-spacing: -0.5px;
 }
 
 .large {
