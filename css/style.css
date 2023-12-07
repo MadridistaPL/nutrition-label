@@ -30,6 +30,11 @@ p {
   justify-content: space-between;
 }
 
+.smallest-text {
+  font-size: 0.7rem;
+  letter-spacing: -0.5px;
+}
+
 .bold-medium {
   font-weight: 650;
   font-size: 12.5px;
@@ -38,12 +43,11 @@ p {
 }
 
 .divider {
-  border-bottom: 0px solid #888989;
-  margin: 2px 0;
+  margin: 1px 0;
 }
 
-.bold-ultra {
-  font-weight: 1000;
+.bold {
+  font-weight: 900;
 }
 
 .font-medium {
@@ -66,7 +70,8 @@ p {
 }
 
 .small-text {
-  font-size: 0.6rem;
+  font-size: 0.85rem;
+  letter-spacing: -0.5px;
 }
 
 .calories-info {
@@ -76,23 +81,28 @@ p {
 }
 
 .calories-info h2 {
-  margin: 0;
+  margin: 2px 0 0;
 }
 
 .left-container p {
-  margin: -2px -2px;
+  margin: -8px -2px -3px;
   font-size: 2em;
-  font-weight: 700;
+  font-weight: 900;
+  letter-spacing: -2px;
 }
 
 .calories-info span {
-  margin: -7px -2px;
-  font-size: 2.4em;
-  font-weight: 700;
+  margin: -7px -2px -3px;
+  font-size: 2.3em;
+  font-weight: 900;
 }
 
 .right {
   justify-content: flex-end;
+}
+
+.small-indent {
+  margin-left: 0.3em;
 }
 
 .indent {
