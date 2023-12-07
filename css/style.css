@@ -12,7 +12,7 @@ body {
 }
 .label {
   border: 2px solid black;
-  width: 220px;
+  width: 245px;
   margin: 170px auto;
   padding: 0 5px;
 }
@@ -20,7 +20,7 @@ body {
 header h1 {
   text-align: center;
   margin: -4px 0;
-  font-size: 27.8px;
+  font-size: 30.9px;
   letter-spacing: -1.5px;
 }
 
