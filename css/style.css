@@ -42,7 +42,7 @@ p {
   margin-bottom: -4px;
 }
 
-.divider {
+.no-divider {
   margin: 0.6px 0;
 }
 
@@ -111,6 +111,12 @@ p {
 
 .double-indent {
   margin-left: 2em;
+  margin: 0.6px 0;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+  margin: 0.6px 0;
 }
 
 .note {
