@@ -121,6 +121,15 @@ p {
   border-bottom: 1px solid #888989;
 }
 
+.nutrients p {
+  padding: 0;
+}
+
+.daily {
+  font-size: 0.6rem;
+  padding: 3px 0;
+}
+
 .note {
   font-size: 0.6rem;
   font-weight: 600;
