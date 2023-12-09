@@ -79,13 +79,12 @@ p {
 }
 
 .calories-info h2 {
-  margin: 2px 0 0;
+  margin-top: 2px;
 }
 
 .left-container p {
   margin: -8px -2px -3px;
   font-size: 2em;
-  font-weight: 900;
   letter-spacing: -2px;
 }
 
@@ -127,7 +126,7 @@ p {
 .note {
   font-size: 0.6rem;
   font-weight: 600;
-  margin: 3px 0;
   padding: 0 8px;
   text-indent: -8px;
+  margin: 1px 0;
 }
