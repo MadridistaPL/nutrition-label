@@ -1,4 +1,5 @@
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -25,7 +26,6 @@ h1 {
 }
 
 p {
-  margin: 0;
   padding: 1px 0;
   display: flex;
   justify-content: space-between;
@@ -47,10 +47,6 @@ p {
   font-weight: 900;
 }
 
-.divider {
-  margin: 0;
-}
-
 .font-medium {
   font-size: 14.5px;
   letter-spacing: -0.5px;
@@ -68,7 +64,6 @@ p {
 }
 
 .medium {
-  margin: 0 0 -2px;
   height: 5px;
 }
 
@@ -97,7 +92,6 @@ p {
 .calories-info span {
   margin: -7px -2px -3px;
   font-size: 2.3em;
-  font-weight: 900;
 }
 
 .right {
