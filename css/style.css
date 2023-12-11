@@ -50,6 +50,13 @@ body {
   font-size: 14.2px;
 }
 
+.short-wide {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 192px 206px 182px;
+}
+
 h1 {
   text-align: center;
   margin: -6px 0 -5px;
