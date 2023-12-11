@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 13px;
-}
-
 body {
   font-family: Helvetica, sans-serif;
   background-color: antiquewhite;
@@ -21,7 +17,7 @@ body {
   gap: 10px;
   padding: 10px;
   grid-template-columns: 245px 245px 245px 245px;
-  grid-template-rows: 192px 202px 182px;
+  grid-template-rows: 192px 206px 182px;
   background-color: white;
 }
 
@@ -50,15 +46,19 @@ body {
   grid-row: 3;
 }
 
+.medium-wide {
+  font-size: 14.2px;
+}
+
 h1 {
   text-align: center;
   margin: -6px 0 -5px;
-  font-size: 30.93px;
+  font-size: 1.93em;
   letter-spacing: -1.5px;
 }
 
 .medium-wide h1 {
-  font-size: 28.75px;
+  font-size: 2.02em;
 }
 
 p {
@@ -69,7 +69,7 @@ p {
 }
 
 .smallest-text {
-  font-size: 0.7rem;
+  font-size: 0.57em;
   letter-spacing: -0.5px;
 }
 
@@ -77,7 +77,6 @@ p {
   font-weight: 650;
   font-size: 13px;
   letter-spacing: 0.5px;
-  margin-bottom: -7px;
 }
 
 .bold {
@@ -87,6 +86,7 @@ p {
 .font-medium {
   font-size: 14.5px;
   letter-spacing: -0.5px;
+  margin-top: -3px;
 }
 
 .large {
@@ -105,7 +105,7 @@ p {
 }
 
 .small-text {
-  font-size: 0.85rem;
+  font-size: 0.7em;
   font-weight: 500;
 }
 
@@ -121,13 +121,13 @@ p {
 
 .left-container p {
   margin: -8px -2px -3px;
-  font-size: 2em;
+  font-size: 1.7em;
   letter-spacing: -2px;
 }
 
 .calories-info span {
   margin: -7px -2px -3px;
-  font-size: 2.3em;
+  font-size: 2.2em;
 }
 
 .right {
@@ -159,12 +159,12 @@ p {
 }
 
 .daily {
-  font-size: 0.6rem;
+  font-size: 0.5em;
   padding: 3px 0;
 }
 
 .note {
-  font-size: 0.6rem;
+  font-size: 0.5em;
   font-weight: 600;
   padding: 0 8px;
   text-indent: -8px;
