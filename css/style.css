@@ -53,7 +53,7 @@ body {
 .short-wide {
   display: grid;
   gap: 10px;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
   grid-template-rows: 192px 206px 182px;
 }
 
