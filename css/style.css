@@ -17,7 +17,7 @@ body {
   gap: 10px;
   padding: 10px;
   grid-template-columns: 245px 245px 245px 245px;
-  grid-template-rows: 192px 206px 182px;
+  grid-template-rows: 192px 237px 150px;
   background-color: white;
 }
 
@@ -54,7 +54,7 @@ body {
   display: grid;
   gap: 10px;
   grid-template-columns: 170px 200px 200px 200px;
-  grid-template-rows: 192px 206px 182px;
+  grid-template-rows: 150px 30px;
 }
 
 .first-element {
@@ -94,6 +94,7 @@ h1 {
 }
 
 .short-wide h1 {
+  font-size: 1.8em;
   text-align: start;
   line-height: 1;
   margin: 0;
@@ -109,6 +110,10 @@ p {
 .smallest-text {
   font-size: 0.57em;
   letter-spacing: -0.5px;
+}
+
+.short-wide .smallest-text {
+  font-size: 0.7em;
 }
 
 .bold-medium {
@@ -211,4 +216,13 @@ p {
   padding: 0 8px;
   text-indent: -8px;
   margin: 1px 0;
+}
+
+.fourth-element p {
+  display: inline;
+}
+
+.first-element header p {
+  font-size: 0.8em;
+  line-height: 0.9;
 }
