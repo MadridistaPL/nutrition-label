@@ -172,6 +172,10 @@ p {
   justify-content: flex-end;
 }
 
+.right2 {
+  float: right;
+}
+
 .divider {
   margin: 1px 0;
 }
