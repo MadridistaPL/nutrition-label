@@ -7,7 +7,7 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: antiquewhite;
   display: grid;
-  height: 100vw;
+  height: 49vw;
   place-items: center;
 }
 
@@ -46,15 +46,15 @@ body {
   grid-row: 3;
 }
 
-.medium-wide {
-  font-size: 14.2px;
+.medium-narrow {
+  font-size: 16.8px;
 }
 
 .short-wide {
   display: grid;
   gap: 10px;
-  grid-template-columns: 170px 200px 200px 200px;
-  grid-template-rows: 150px 30px;
+  grid-template-columns: 170px 200px 200px 140px;
+  grid-template-rows: 104px 30px;
 }
 
 .first-element {
@@ -89,12 +89,16 @@ h1 {
   letter-spacing: -1.5px;
 }
 
+.medium-narrow h1 {
+  font-size: 1.84em;
+}
+
 .medium-wide h1 {
-  font-size: 2.02em;
+  font-size: 1.79em;
 }
 
 .short-wide h1 {
-  font-size: 1.8em;
+  font-size: 1.9em;
   text-align: start;
   line-height: 1;
   margin: 0;
@@ -127,13 +131,12 @@ p {
 }
 
 .font-medium {
-  font-size: 14.5px;
+  font-size: 0.9em;
   letter-spacing: -0.5px;
   margin-top: -3px;
 }
 
 .large {
-  margin: 1.5px 0;
   height: 10px;
 }
 
@@ -156,6 +159,14 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.short-wide .calories-info {
+  align-items: flex-start;
+}
+
+.short-wide .calories-info div p:first-child {
+  font-size: 18px;
 }
 
 .calories-info h2 {
@@ -206,7 +217,7 @@ p {
 }
 
 .daily {
-  font-size: 0.5em;
+  font-size: 0.8em;
   padding: 3px 0;
 }
 
@@ -222,7 +233,15 @@ p {
   display: inline;
 }
 
-.first-element header p {
+.first-element p {
   font-size: 0.8em;
-  line-height: 0.9;
+  line-height: 1;
+}
+.third-element p {
+  padding: 0.42px 0;
+}
+
+.fifth-element .note {
+  margin-top: 20px;
+  font-size: 0.7em;
 }
